@@ -15,15 +15,46 @@ nav #link a {
   padding: 0 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  display: inline-block;
 }
 
-nav #link a .logo {
-  font-size: 32px;
+nav #link a:hover {
+  color: #c7fbb2;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+nav #link #social a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 0 10px;
+}
+
+nav #link #social a:hover {
+  -webkit-filter: invert(53%) sepia(0%) saturate(3117%) hue-rotate(99deg) brightness(89%) contrast(86%);
+          filter: invert(53%) sepia(0%) saturate(3117%) hue-rotate(99deg) brightness(89%) contrast(86%);
+}
+
+nav #link .logo {
+  font-weight: 900;
+  font-size: 36px !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-nav #link a .logo:hover {
+nav #link .logo:hover {
   font-size: 20px;
+}
+
+.banner1 {
+  background-image: url();
+}
+
+.banner2 {
+  background-image: url();
+}
+
+.banner3 {
+  background-image: url();
 }
 /*# sourceMappingURL=style.css.map */

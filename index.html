@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scabli-no">
     <title>麥當勞scss</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <!-- 導覽列 -->
     <nav>
+        <div></div>
         <div id="link">
             <a href="">分頁</a>
             <a href="">分頁</a>
@@ -22,11 +25,51 @@
             <a href="">
                 <img src="./fb-icon.png" alt="fb">
                 <img src="./ig-icon.png" alt="ig">
+
                 
             </a>
         </div>
     </nav>
-
+    <!-- 輪播 -->
+    <div id="banner">
+        <div class="banner1">
+            <h1>標題一</h1>
+            <h2>標題二</h2>
+        </div>
+        <div class="banner2">
+            <h1>標題一</h1>
+            <h2>標題二</h2>
+        </div>
+        <div class="banner3">
+            <h1>標題一</h1>
+            <h2>標題二</h2>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- 最新消息 -->
+    <section id="news">
+        <div id="news-content">
+            <div class="news-cards">
+                <img src="" alt="">
+                <h3>標題三</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, nostrum.</p>
+                <button>按鈕</button>
+            </div>
+            <div class="news-cards">
+                <img src="" alt="">
+                <h3>標題三</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, magni!</p>
+                <button>按鈕</button>
+            </div>
+            <div class="news-cards">
+                <img src="" alt="">
+                <h3>標題三</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, obcaecati!</p>
+                <button>按鈕</button>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
