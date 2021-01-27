@@ -1,5 +1,10 @@
-$("banner").slick({
+$("#banner").slick({
     dots: true,
-    autoplat: true,
-    autoplaySpeed: 2000
+    autoplay: true,
+    autoplaySpeed: 1500
+});
+
+$("#works").slick({
+    slidesToShow: 4,
+    slidesToScroll: 2
 });
