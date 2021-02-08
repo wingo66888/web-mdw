@@ -20,7 +20,14 @@
 
         </div>
         <div id="link">
-            <a href="./works.html">別具滋味</a>
+            <div id="link-work" href="./works.html">
+                別具滋味
+             <div class="sub-link"> 
+                <a href="">漢堡</a>
+                <a href="">薯條</a>
+                <a href="">可樂</a>
+            </div>  
+        </div>
             <a href="./web/">企業永續</a>
             <a href="./index.html" class="logo">medenlow</a>
             <a href="">數位便利</a>
@@ -75,37 +82,54 @@
         </div>
     </section>
 
-    <!-- 最新資料 -->
-    <h1 class="titlt-big">最新資料</h1>
+    <!-- 最新商品-->
+    
+    <h1 class="title-big">最新商品</h1>
     <div id="works">
-        <div class="works-card">
-            <img src="./img/tit-1.jpg" alt="">
-            <h2>標題二</h2>
-            <small>leam10</small>
+        <div class="work-card">
+            <img src="./img/work1.jpg" alt="">
+            <h2>跑跑小屁孩</h2>
+            <small>#遊戲設計, #Unity, #2D, #跑酷, #KID</small>
         </div>
-        <div class="works-card">
-            <img src="./img/tit-2.jpg" alt="">
-            <h2>標題二</h2>
-            <small>loeam10</small>
+        <div class="work-card">
+            <img src="./img/work2.jpg" alt="">
+            <h2>俄羅斯方塊 KID 版</h2>
+            <small>#遊戲設計, #Unity, #2D, #俄羅斯方塊, #KID</small>
         </div>
-        <div class="works-card">
-            <img src="./img/tit-3.jpg" alt="">
-            <h2>標題二</h2>
+        <div class="work-card">
+            <img src="./img/work3.jpg" alt="">
+            <h2>動物派對</h2>
+            <small>#遊戲設計, #Unity, #3D, #Steam, #KID</small>
         </div>
-        <div class="works-card">
-            <img src="./img/tit-4.jpg" alt="">
-            <h2>標題二</h2>
+        <div class="work-card">
+            <img src="./img/work4.jpg" alt="">
+            <h2>2021 新年快樂</h2>
+            <small>#插畫設計, #illustrator, #2021, #小孩塗鴉牆</small>
         </div>
-        <div class="works-card">
-            <img src="./img/tit-5.jpg" alt="">
-            <h2>標題二</h2>
+        <div class="work-card">
+            <img src="./img/work5.jpg" alt="">
+            <h2>Vlog 2D 橫向卷軸遊戲</h2>
+            <small>#遊戲設計, #Unity, #2D, #Vlog, #KID</small>
         </div>
-        <div class="works-card">
-            <img src="./img/tit-4.jpg" alt="">
-            <h2>標題二</h2>
+        <div class="work-card">
+            <img src="./img/work6.jpg" alt="">
+            <h2>網頁動態按鈕</h2>
+            <small>#前端網頁, #webdesign, #動態按鈕, #KID</small>
         </div>
     </div>
 
+    <!-- 聯絡 KID -->
+    <h1 class="title-big">聯絡 KID</h1>
+    <!-- 表單元素 action="" 傳遞給後端頁面，通常是 XXX.php -->
+    <!-- 方法：傳送資料的方式 -->
+    <!-- GET 曝光表單資料 -->
+    <!-- POST 不會曝光表單資料 -->
+    <form action="" method="GET">
+        <input type="text" name="user-name" placeholder="請輸入您的姓名" required>
+        <input type="email" name="user-email" placeholder="請輸入您的信箱" required>
+        <textarea placeholder="請輸入您想要跟 KID 說的話" required></textarea>
+        <input type="submit" value="送出" class="btn">
+    </form>
     <!-- 聯絡我 -->
    
     <h1 class="title-big">聯絡我</h1>

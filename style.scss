@@ -55,6 +55,36 @@ nav {
         padding: 20px 0;
     }
 
+    #link-work{
+        position:relative;
+        display:inline-block;
+        padding: 0 60px;
+        vertical-align: 10px;
+
+        &:hover .sub-link{
+            // display: block;   第一種作法
+            transform: scale(1);   
+        }
+    }
+
+    .sub-link{
+        // display: none;     第一種作法
+        // 第二種作法
+        transform: scale(0);
+        transition: 1s;
+        transform: top;
+        position:absolute;
+        top:70px;
+        left:-10px;
+        background: $color-white;
+     }
+
+     a{
+         display: block !important;
+         padding: 30px 80px !important;
+         width: 180px !important;
+     }
+
     #link {
         @media screen and (max-width: $tablet) {
             display: none;
